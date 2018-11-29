@@ -1,0 +1,165 @@
+/*reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+nav {
+	border: 1px solid red;
+	/*height: 10vh;*/
+	background-color: grey;
+}
+main {
+	border: 1px solid red;
+	/*height: 1em;*/
+	/*background-color: grey;*/
+}
+footer {
+	border: 1px solid red;
+	height: 1em;
+	/*background-color: grey;*/
+}
+
+.btn {
+	/*border-top-right-radius:0;*/
+	/*border-top-left-radius:0;*/
+	/*border-bottom-right-radius:0;*/
+	/*border-bottom-left-radius:0;*/
+	border-radius: 0;
+}
+
+section {
+border: 1px solid red;
+	
+}
+
+.show {
+	border: 2px solid olive;
+	height: 10em;
+}
+
+/*navbar-----------------------------*/
+#logo {
+	height: 2em;
+	/*width: 1em;*/
+	border-radius: 1em;
+}
+.nav-link {
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#navbarmain {
+	padding-top: 5em;
+	height: 90vh;
+}
+
+.jumbotron {
+	border-radius: 0;
+	margin:0;
+}
+
+
+/*news - new arrivals ----------------*/
+
+#new-arrivals1 {
+	background-image: url(../../assets/images/image-long.png);
+	background-repeat: no-repeat;
+	 /*background-size: contain, cover;*/
+	 background-size: cover;
+	 min-height: 20em;
+	 border: 2px solid blue;
+	 /*width: 100%;*/
+}
+
+#new-arrivals2 {
+	background-image: url(../../assets/images/image-long.png);
+	background-repeat: no-repeat;
+	 background-size: cover;
+	 min-height: 20em;
+	 border: 2px solid blue;
+	 /*width: 100%;*/
+}
+
+
+/*featured product-------------------*/
+
+.featured-product-details-img {
+	border-radius: 0;
+}
+.featured-product-details-text {
+	line-height: 10px;
+	text-align: center;
+}
+
+.featured-product-details-btn {
+	width: 100%;
+}
+
+
+
+
+/*..............................................Footer.......................................................*/
+.footer-sections {
+	height: 10em;
+	background-color: #303030;
+}
+.mailinglist-form-container {
+	border: 2px solid red;
+}
+.footer-mailinglist-text {
+	width: 50%;
+	text-align: center;
+	border: 2px solid red;
+}
+#footer-mailinglist-input {
+	width: 100%;
+	border: 2px solid red;
+}
+#footer-mailinglist-button {
+	width: auto;
+	border: 2px solid yellow;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*MOBILE SCREEN*/
+@media only screen and (max-width: 400px) { 
+
+
+
+} /*END OF MOBILE SCREEN*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*TABLET VIEW */
+@media only screen and (min-width: 401px) and (max-width: 960px) { 
+
+
+
+}/*END TABLET VIEW */
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*DESKTOP VIEW*/
+@media only screen and (min-width: 961px) { 
+
+.nav-link {
+	font-size: initial;
+	line-height: initial;
+	text-align: initial;
+}
+
+#navbarmain {
+	padding-top: initial;
+	height: initial;
+}
+
+}/*END DESKTOP VIEW*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
